@@ -1,0 +1,95 @@
+.contact{
+    background: url('/img/reservieren.jpg') center/cover no-repeat fixed;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 80px;
+
+}
+.contact .contact-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    line-height: 2;
+    padding: 60px;
+    
+}
+.contact .contact-content h1{
+    color: var(--white);
+}
+.adres .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.col-6-left p{
+    margin: 20px 0;
+    line-height: 2;
+
+}
+.col-6-left a{
+   color: var(--text-color);
+   transition: .3s;
+}
+.col-6-left a i{
+    margin-right: 10px;
+}
+.col-6-left a:hover{
+    color: var(--red);
+}
+.col-6-left p:first-child{
+    font-size: 30px;
+    font-weight: 700;
+}
+.col-6-left span{
+    color: var(--red);
+}
+.col-6-right .form h4{
+    margin-bottom: 20px;
+}
+
+.col-6-right .form .form-control{
+    line-height: 50px;
+
+}
+.form-control .input-form{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.form-control .input-form:focus{
+    outline: none;
+}
+.form-control textarea{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 15px;
+}
+.form-control textarea:focus{
+    outline: none;
+}
+.form .btn{
+    display: inline-block;
+    width: 100%;
+    padding: 15px 25px;
+    border: 1px solid var(--text-color);
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+}
+.form .btn:hover{
+    background-color: var(--text-color);
+    color: var(--white);
+}
+@media screen and (max-width: 768px){
+    .adres .row{
+        grid-template-columns: 1fr;
+    }
+}

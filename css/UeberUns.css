@@ -1,0 +1,36 @@
+.uberUns{
+    background: url('/img/uber_uns.jpg') center/cover no-repeat fixed;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 80px;
+    position: relative;
+
+}
+.uberUns .uberUns-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    line-height: 2;
+    padding: 60px;
+    position: absolute;
+
+    
+}
+.uberUns .uberUns-content h1{
+    color: var(--white);
+}
+.history h2{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.history .content{
+        
+    margin-top: 30px;
+    text-align: left;
+    line-height: 2;
+
+}
